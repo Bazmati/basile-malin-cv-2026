@@ -10,7 +10,7 @@
     "téléphone": "+33 6 88 67 69 46",
     "github": "Bazmati",
     "linkedin": "",
-    "site_web": "https://bazmati.github.io/basile-malin-cv/",
+    "site_web": "https://bazmati.github.io/basile-malin-cv-2026/",
     "localisation": "Balazé, Ille-et-Vilaine (35)"
   },
   
@@ -517,7 +517,7 @@
       "nom": "CV Basile MALIN",
       "description": "Un site web statique de portfolio personnel pour présenter mes projets et compétences.",
       "technos": ["JavaScript","HTML", "CSS"],
-      "lien": "https://bazmati.github.io/basile-malin-cv/",
+      "lien": "https://bazmati.github.io/basile-malin-cv-2026/",
       "github": "https://github.com/Bazmati",
       "actif": false,
       "réalisations": [
@@ -541,6 +541,6 @@
     "github": "https://github.com/Bazmati",
     "linkedin": "",
     "twitter": "",
-    "portfolio": "https://bazmati.github.io/basile-malin-cv/"
+    "portfolio": "https://bazmati.github.io/basile-malin-cv-2026/"
   }
 }

@@ -418,25 +418,27 @@ function renderContact(cv) {
   const contactItems = [];
   
   if (contact.email) {
-    contactItems.push({ icon: 'fa-envelope', value: '<a href="mailto:' + contact.email + '">' + contact.email + '</a>' });
+    contactItems.push({ icon: 'fa-envelope', value: '<a href="mailto:' + contact.email + '" class="contact-link">' + contact.email + '</a>' });
   }
   if (contact.téléphone) {
-    contactItems.push({ icon: 'fa-phone', value: contact.téléphone });
+    const phoneNumber = contact.téléphone.replace(/\s+/g, '');
+    contactItems.push({ icon: 'fa-phone', value: '<a href="tel:' + phoneNumber + '" class="contact-link">' + contact.téléphone + '</a>' });
   }
   if (contact.github) {
-    contactItems.push({ icon: 'fab fa-github', value: '<a href="https://github.com/' + contact.github + '" target="_blank">@' + contact.github + '</a>' });
+    contactItems.push({ icon: 'fab fa-github', value: '<a href="https://github.com/' + contact.github + '" class="contact-link" target="_blank">@' + contact.github + '</a>' });
   }
   if (contact.linkedin) {
-    contactItems.push({ icon: 'fab fa-linkedin', value: '<a href="https://linkedin.com/in/' + contact.linkedin + '" target="_blank">' + contact.linkedin + '</a>' });
+    contactItems.push({ icon: 'fab fa-linkedin', value: '<a href="https://linkedin.com/in/' + contact.linkedin + '" class="contact-link" target="_blank">' + contact.linkedin + '</a>' });
   }
   if (contact.site_web) {
-    contactItems.push({ icon: 'fa-globe', value: '<a href="' + contact.site_web + '" target="_blank">' + contact.site_web + '</a>' });
+    contactItems.push({ icon: 'fa-globe', value: '<a href="' + contact.site_web + '" class="contact-link" target="_blank">' + contact.site_web + '</a>' });
   }
   if (contact.portfolio) {
-    contactItems.push({ icon: 'fa-folder-open', value: '<a href="' + contact.portfolio + '" target="_blank">' + contact.portfolio + '</a>' });
+    contactItems.push({ icon: 'fa-folder-open', value: '<a href="' + contact.portfolio + '" class="contact-link" target="_blank">' + contact.portfolio + '</a>' });
   }
   if (contact.localisation) {
-    contactItems.push({ icon: 'fa-map-marker-alt', value: contact.localisation });
+    const mapsUrl = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(contact.localisation);
+    contactItems.push({ icon: 'fa-map-marker-alt', value: '<a href="' + mapsUrl + '" class="contact-link" target="_blank">' + contact.localisation + '</a>' });
   }
   
   if (cv.réseaux_sociaux && cv.réseaux_sociaux.twitter && !contact.twitter) {

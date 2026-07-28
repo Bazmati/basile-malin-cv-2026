@@ -188,6 +188,27 @@ body {
   color: var(--primary-light);
 }
 
+/* ===== Liens cliquables ===== */
+.contact-link {
+  color: var(--text-color);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  border-bottom: 1px solid transparent;
+}
+
+.contact-link:hover {
+  color: var(--primary-color);
+  border-bottom-color: var(--primary-color);
+}
+
+.contact-item-full a.contact-link {
+  color: var(--text-color);
+}
+
+.contact-item-full a.contact-link:hover {
+  color: var(--primary-color);
+}
+
 /* ===== Sections ===== */
 .cv-section {
   margin-bottom: 2rem;
