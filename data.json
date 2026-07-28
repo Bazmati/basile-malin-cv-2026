@@ -1,0 +1,546 @@
+{
+  "nom": "Basile Malin",
+  "poste": "Développeur Fullstack Junior",
+  "résumé": "Développeur Fullstack Junior, passionné par les technologies web et les applications innovantes. Spécialisé dans les applications web modernes avec PHP et Symfony, je suis toujours à la recherche de nouveaux défis pour enrichir mes compétences. Je travaille principalement entre Laval et Rennes.",
+  "photo": "2026-04-19-175126.jpg",
+  "couleur_primaire": "#1e40af",
+  
+  "contact": {
+    "email": "basilemalin@gmx.fr",
+    "téléphone": "+33 6 88 67 69 46",
+    "github": "Bazmati",
+    "linkedin": "",
+    "site_web": "https://bazmati.github.io/basile-malin-cv-2026/",
+    "localisation": "Balazé, Ille-et-Vilaine (35)"
+  },
+  
+  "expériences": [
+    {
+      "titre": "Charpentier",
+      "poste": "Charpentier",
+      "entreprise": "EI ORRIERE DAMIEN",
+      "date": "Mars 2025 - Présent",
+      "type_contrat": "CDD",
+      "lieu": "Saint-M'Hervé, France (Sur site)",
+      "description": "Contrat à durée déterminée",
+      "responsabilités": [
+        "Montage de charpente agricole"
+      ],
+      "compétences": [
+        "Techniques de construction et d'assemblage : réaliser l'assemblage, le montage et le levage des structures bois (charpentes, ossatures, poutres) en respectant les techniques traditionnelles et industrielles",
+        "Lecture de plans et schémas : interpréter les plans d'exécution, les schémas de montage et les notices techniques",
+        "Utilisation des outils et machines : manipuler les outils manuels et les machines pour la découpe, l'assemblage et le montage",
+        "Implantation et organisation du chantier : préparer le poste de travail, organiser la logistique des matériaux",
+        "Respect des règles de sécurité : appliquer strictement les consignes de sécurité et normes DTU",
+        "Capacité physique et habileté : travail en extérieur, port de lourdes charges, travail en hauteur",
+        "Sens de l'espace et du calcul : maîtrise de la géométrie pour élaborer et vérifier les structures",
+        "Utilisation de l'informatique et logiciels spécialisés : outils de conception assistée par ordinateur (DAO/CFAO)",
+        "Travail en équipe et communication : collaborer avec différents corps de métier"
+      ]
+    },
+    {
+      "titre": "Manutentionnaire",
+      "poste": "Manutentionnaire",
+      "entreprise": "BACKUS LOGISTICS",
+      "date": "Décembre 2024",
+      "type_contrat": "Intérim (Samsic Intérim)",
+      "lieu": "Etrelles, France (Sur site)",
+      "description": "Mission d'intérim",
+      "responsabilités": [
+        "Mise en rayon des produits"
+      ],
+      "compétences": [
+        "Manutention",
+        "Travail en équipe"
+      ]
+    },
+    {
+      "titre": "Concepteur Développeur d'Applications",
+      "poste": "Concepteur Développeur d'Applications",
+      "entreprise": "SARL Hydiac",
+      "date": "Novembre 2022 - Novembre 2024",
+      "type_contrat": "Apprentissage (Alternance)",
+      "lieu": "Rennes, France (Sur site)",
+      "description": "Développement d'applications web et mobiles pour l'entreprise et ses clients.",
+      "responsabilités": [
+        "Conception et développement d'applications web et mobiles avec Symfony et Android Studio",
+        "Débogage et optimisation du code front-end pour une meilleure expérience utilisateur",
+        "Participation aux revues de code et contribution à l'amélioration des standards de codage"
+      ],
+      "réalisations": [
+        "Création d'un gestionnaire de formation pour les stagiaires, clients et formateurs",
+        "Développement d'une application de gestion des trajets pour les formateurs",
+        "'Hydiachronos' : Application de gestion des opérations de nettoyage pour les collectivités"
+      ],
+      "technos": ["Symfony", "Bootstrap", "Tailwind", "JavaScript", "MySQL", "AndroidStudio", "Swift", "Symfony Ux", "GitHub", "UML"]
+    },
+    {
+      "titre": "Développeur Junior",
+      "poste": "Développeur Junior",
+      "entreprise": "AvousLeWeb",
+      "date": "Avril 2022",
+      "type_contrat": "Stage",
+      "lieu": "Rennes, France (Télétravail)",
+      "description": "Stage pour la formation de Technicien Intégrateur Web. Développement d'une application web pour la gestion des projets internes.",
+      "responsabilités": [
+        "Développement d'une application web (dashboard) en PHP et MySQL permettant de récupérer l'ensemble des KPI nécessaires à l'entreprise",
+        "Récupération des articles contenant les mots-clés sur l'ensemble des sites internes et clients",
+        "Réalisation du backend en PHP et utilisation d'un template Bootstrap pour le frontend",
+        "Participation à des réunions d'équipe pour discuter des progrès et des obstacles rencontrés"
+      ],
+      "réalisations": [
+        "Implémentation d'une fonctionnalité d'authentification utilisateur renforcée, améliorant significativement la sécurité du système",
+        "Développement d'un crawler avec certificat SSL permettant l'indexation automatique des mots-clés"
+      ],
+      "technos": ["PHP", "MySQL", "Bootstrap", "Git"]
+    },
+    {
+      "titre": "Technicien de Maintenance Industrielle",
+      "poste": "Technicien de Maintenance Industrielle",
+      "entreprise": "Carrières des Lacs",
+      "date": "Décembre 2019 - Décembre 2020",
+      "type_contrat": "CDI",
+      "lieu": "Saint-Aubin-des-Landes, France (Sur site)",
+      "description": "Maintenance préventive et corrective des installations industrielles dans une carrière spécialisée dans l'extraction de gravières et sablières.",
+      "responsabilités": [
+        "Diagnostic et réparation des pannes mécaniques, électriques et hydrauliques",
+        "Mise en conformité des équipements selon les normes de sécurité",
+        "Collaboration avec les équipes pour assurer la disponibilité des moyens de production"
+      ],
+      "compétences": [
+        "Mécanique industrielle",
+        "Électricité industrielle",
+        "Hydraulique",
+        "Maintenance préventive"
+      ]
+    },
+    {
+      "titre": "Technicien de Maintenance Industrielle",
+      "poste": "Technicien de Maintenance Industrielle",
+      "entreprise": "SAS Pigeon Carrières",
+      "date": "Septembre 2018 - Décembre 2019",
+      "type_contrat": "CDI",
+      "lieu": "Argentré-du-Plessis, France (Sur site)",
+      "description": "Entretien et maintenance des installations fixes et mobiles ainsi que des engins de travaux publics.",
+      "responsabilités": [
+        "Diagnostic et réparation des pannes mécaniques et électriques",
+        "Suivi des dossiers techniques et mise en conformité des équipements"
+      ],
+      "compétences": [
+        "Mécanique industrielle",
+        "Électricité industrielle",
+        "Hydraulique"
+      ]
+    },
+    {
+      "titre": "Électrotechnicien",
+      "poste": "Électrotechnicien",
+      "entreprise": "Matavicol",
+      "date": "Octobre 2017 - Mars 2018",
+      "type_contrat": "CDI",
+      "lieu": "Argentré-du-Plessis, France (Itinérant)",
+      "description": "Monteur poseur de réseaux électriques et technicien de maintenance industrielle pour l'entreprise Matavicol, spécialisée dans les travaux d'électricité et de maintenance de voliaire industrielle.",
+      "responsabilités": [
+        "Montage des équipements électriques permettant le fonctionnement automatisé des volières"
+      ],
+      "compétences": [
+        "Électrotechnicien",
+        "Mécanique industrielle"
+      ]
+    },
+    {
+      "titre": "Prestataire de service en Maintenance Industrielle",
+      "poste": "Prestataire de service (Métallier Soudeur)",
+      "entreprise": "SARL Suire et Associés (Cooper Standard France)",
+      "date": "Octobre 2011 - Octobre 2017",
+      "type_contrat": "Prestataire",
+      "lieu": "Vitré, France (Sur site)",
+      "description": "Prestataire de service en tant que métallier soudeur pour l'entreprise Cooper Standard France, spécialisée dans la fabrication de pièces automobiles.",
+      "responsabilités": [
+        "Entretien des équipements industriels dans différents environnements",
+        "Collaboration avec les équipes pour optimiser les processus de production"
+      ],
+      "compétences": [
+        "Soudure industrielle",
+        "Mécanique industrielle",
+        "Amélioration continue"
+      ]
+    },
+    {
+      "titre": "Technicien de Maintenance Industrielle",
+      "poste": "Technicien de Maintenance Industrielle",
+      "entreprise": "Gévelot Extrusion",
+      "date": "Avril 2011 - Octobre 2011",
+      "type_contrat": "CDI",
+      "lieu": "Laval, France (Sur site)",
+      "description": "Électromécanicien pour l'entreprise Gévelot Extrusion, spécialisée dans la fabrication de pignonnerie pour l'industrie automobile.",
+      "responsabilités": [
+        "Entretien des équipements industriels",
+        "Collaboration avec les équipes pour optimiser les processus de production"
+      ],
+      "compétences": [
+        "Soudure industrielle",
+        "Mécanique industrielle",
+        "Électrotechnicien",
+        "Amélioration continue"
+      ]
+    },
+    {
+      "titre": "Technicien de Maintenance Industrielle",
+      "poste": "Technicien de Maintenance Industrielle",
+      "entreprise": "Secmair",
+      "date": "Février 2011 - Avril 2011",
+      "type_contrat": "CDI",
+      "lieu": "Laval, France (Sur site)",
+      "description": "Électromécanicien pour l'entreprise spécialisée dans l'industrie.",
+      "responsabilités": [
+        "Entretien des équipements industriels",
+        "Collaboration avec les équipes pour optimiser les processus de production"
+      ],
+      "compétences": [
+        "Soudure industrielle",
+        "Mécanique industrielle",
+        "Électrotechnicien",
+        "Amélioration continue"
+      ]
+    },
+    {
+      "titre": "Technicien de Maintenance Industrielle",
+      "poste": "Technicien de Maintenance Industrielle",
+      "entreprise": "Kwizda France",
+      "date": "Juin 2010 - Novembre 2010",
+      "type_contrat": "CDI",
+      "lieu": "Val d'Izé, France (Sur site)",
+      "description": "Électromécanicien pour l'entreprise Kwizda France, spécialisée dans la fabrication de produits phytosanitaires.",
+      "responsabilités": [
+        "Entretien des équipements industriels",
+        "Collaboration avec les équipes pour optimiser les processus de production",
+        "Mise en place du plan de maintenance préventive",
+        "Rédaction des procédures de maintenance et process de conduite des lignes de production"
+      ],
+      "compétences": [
+        "Soudure industrielle",
+        "Mécanique industrielle",
+        "Électrotechnicien",
+        "Amélioration continue"
+      ]
+    },
+    {
+      "titre": "Technicien de Maintenance Industrielle",
+      "poste": "Technicien de Maintenance Industrielle",
+      "entreprise": "Gatines Viandes",
+      "date": "2010",
+      "type_contrat": "CDI",
+      "lieu": "La Guerche de Bretagne, France (Sur site)",
+      "description": "Électromécanicien pour l'entreprise Gatines Viandes, spécialisée dans la fabrication de produits carnés.",
+      "responsabilités": [
+        "Entretien des équipements industriels",
+        "Collaboration avec les équipes pour optimiser les processus de production"
+      ],
+      "compétences": [
+        "Soudure industrielle",
+        "Mécanique industrielle",
+        "Électrotechnicien",
+        "Amélioration continue"
+      ]
+    },
+    {
+      "titre": "Manutentionnaire et Agent de fabrication",
+      "poste": "Manutentionnaire et Agent de fabrication",
+      "entreprise": "Intérim",
+      "date": "2007 - 2008",
+      "type_contrat": "Intérim",
+      "lieu": "Pays de Vitré, France (Sur site)",
+      "description": "Manutentionnaire et agent de fabrication pour différentes entreprises de la région de Vitré.",
+      "compétences": [
+        "Travail en équipe",
+        "Respect des consignes de sécurité",
+        "Techniques de production et de manutention"
+      ]
+    }
+  ],
+  
+  "formation": [
+    {
+      "diplôme": "Titre Professionnel - Concepteur Développeur d'Applications (Niveau 6 - Bac+4)",
+      "école": "ENI École Informatique",
+      "lieu": "Chartres-de-Bretagne",
+      "date": "Novembre 2022 - Novembre 2024",
+      "lien": "https://www.eni-ecole.fr/formations/developpement/niveau-6-bac3-concepteur-developpeur-dapplications/",
+      "mention": "Obtenu",
+      "moyenne": "3.8/4",
+      "cours": [
+        "Développement d'applications web et mobiles",
+        "Architecture logicielle",
+        "Bases de données",
+        "Symfony",
+        "JavaScript avancé",
+        "Gestion de projet"
+      ]
+    },
+    {
+      "diplôme": "Titre Professionnel - Technicien Intégrateur Web (Niveau 5 - Bac+2)",
+      "école": "Buroscope",
+      "lieu": "Rennes",
+      "date": "Septembre 2021 - Septembre 2022",
+      "lien": "https://buroscope.bzh/documents/DOC-FORMATION-121.pdf",
+      "mention": "Obtenu",
+      "moyenne": "3.9/4",
+      "cours": [
+        "Développement web avancé",
+        "Architecture et design logiciel",
+        "Intégration HTML/CSS",
+        "JavaScript",
+        "PHP",
+        "Frameworks modernes"
+      ]
+    },
+    {
+      "diplôme": "Titre Professionnel - Technicien de Maintenance Industrielle (Niveau 5 - Bac+2)",
+      "école": "AFTEC",
+      "lieu": "Vitré",
+      "date": "2008 - 2010",
+      "mention": "Obtenu",
+      "moyenne": "4.0/4",
+      "cours": [
+        "Mécanique industrielle",
+        "Électricité industrielle",
+        "Hydraulique",
+        "Pneumatique",
+        "Maintenance préventive et corrective",
+        "Automatismes"
+      ]
+    },
+    {
+      "diplôme": "Bac Professionnel - Maintenance des Systèmes Mécaniques et Automatisés",
+      "école": "Lycée Jean Jaurès",
+      "lieu": "Rennes",
+      "date": "Septembre 2003 - Juin 2004",
+      "cours": [
+        "Technologies mécaniques : Étude des systèmes mécaniques et automatisés, diagnostic et maintenance",
+        "Électrotechnique : Formation en électricité appliquée aux systèmes industriels"
+      ]
+    },
+    {
+      "diplôme": "BEP/CAP - Électrotechnique",
+      "école": "Lycée Professionnel La Champagne",
+      "lieu": "Vitré",
+      "date": "Septembre 2001 - Juin 2003",
+      "cours": [
+        "Bases en électrotechnique : Installation et maintenance des systèmes électriques"
+      ]
+    }
+  ],
+  
+  "certifications": [
+    {
+      "nom": "Concepteur Développeur d'Applications",
+      "date": "8 novembre 2024",
+      "organisme": "ENI école informatique",
+      "lien": "https://onlineuniversity.com/certificates/fullstack"
+    },
+    {
+      "nom": "Technicien Intégrateur Web",
+      "date": "26 juillet 2022",
+      "organisme": "Buroscope",
+      "lien": "https://onlineuniversity.com/certificates/fullstack"
+    }
+  ],
+  
+  "compétences": [
+    {
+      "nom": "Symfony",
+      "niveau": "Expert",
+      "icône": "symfony",
+      "catégorie": "Backend",
+      "mots_clés": ["PHP Framework", "SSR", "Static Generation", "Backend/Frontend"]
+    },
+    {
+      "nom": "MySQL",
+      "niveau": "Expert",
+      "icône": "mysql",
+      "catégorie": "Base de données",
+      "mots_clés": ["Databases", "SQL", "Data Storage", "Backend"]
+    },
+    {
+      "nom": "Linux",
+      "niveau": "Expert",
+      "icône": "linux",
+      "catégorie": "Système",
+      "mots_clés": ["Command Line", "Shell Scripting", "System Administration", "Networking", "Security"]
+    },
+    {
+      "nom": "Figma",
+      "niveau": "Expert",
+      "icône": "figma",
+      "catégorie": "Design",
+      "mots_clés": ["Design", "UI"]
+    },
+    {
+      "nom": "Git",
+      "niveau": "Intermédiaire",
+      "icône": "git",
+      "catégorie": "Versioning",
+      "mots_clés": ["Version Control", "Collaboration", "Source Code"]
+    },
+    {
+      "nom": "GitHub",
+      "niveau": "Intermédiaire",
+      "icône": "github",
+      "catégorie": "Versioning",
+      "mots_clés": ["Version Control", "Collaboration", "Source Code", "Git"]
+    },
+    {
+      "nom": "GitLab",
+      "niveau": "Intermédiaire",
+      "icône": "gitlab",
+      "catégorie": "Versioning",
+      "mots_clés": ["Version Control", "Collaboration", "Source Code"]
+    },
+    {
+      "nom": "TypeScript",
+      "niveau": "Intermédiaire",
+      "icône": "typescript",
+      "catégorie": "Langages",
+      "mots_clés": ["Web Development", "Frontend", "Backend", "JavaScript Superset"]
+    },
+    {
+      "nom": "Node.js",
+      "niveau": "Intermédiaire",
+      "icône": "nodejs",
+      "catégorie": "Backend",
+      "mots_clés": ["Web Development", "Backend", "JavaScript", "Server"]
+    },
+    {
+      "nom": "Php",
+      "niveau": "Intermédiaire",
+      "icône": "php",
+      "catégorie": "Backend",
+      "mots_clés": ["Web Development", "Backend", "php", "Server"]
+    },
+    {
+      "nom": "JavaScript",
+      "niveau": "Intermédiaire",
+      "icône": "javascript",
+      "catégorie": "Langages",
+      "mots_clés": ["Web Development", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "nom": "Java",
+      "niveau": "Intermédiaire",
+      "icône": "java",
+      "catégorie": "Langages",
+      "mots_clés": ["Web Development", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "nom": "Kotlin",
+      "niveau": "Intermédiaire",
+      "icône": "kotlin",
+      "catégorie": "Backend",
+      "mots_clés": ["Web Development", "Backend", "Kotlin"]
+    },
+    {
+      "nom": "HTML",
+      "niveau": "Intermédiaire",
+      "icône": "html5",
+      "catégorie": "Frontend",
+      "mots_clés": ["Web Development", "Frontend"]
+    },
+    {
+      "nom": "CSS",
+      "niveau": "Intermédiaire",
+      "icône": "css3",
+      "catégorie": "Frontend",
+      "mots_clés": ["Web Development", "Frontend", "Responsive Design"]
+    },
+    {
+      "nom": "Tailwind CSS",
+      "niveau": "Intermédiaire",
+      "icône": "tailwind",
+      "catégorie": "Frontend",
+      "mots_clés": ["Web Development", "Frontend", "CSS Framework", "Responsive Design"]
+    },
+    {
+      "nom": "Bootstrap",
+      "niveau": "Intermédiaire",
+      "icône": "bootstrap",
+      "catégorie": "Frontend",
+      "mots_clés": ["Web Development", "Frontend", "CSS Framework", "Responsive Design"]
+    },
+    {
+      "nom": "Swift",
+      "niveau": "Débutant",
+      "icône": "swift",
+      "catégorie": "Mobile",
+      "mots_clés": ["iOS Development", "Mobile Applications"]
+    },
+    {
+      "nom": "Android Studio",
+      "niveau": "Intermédiaire",
+      "icône": "android",
+      "catégorie": "Mobile",
+      "mots_clés": ["Android Development", "Mobile Applications"]
+    },
+    {
+      "nom": "UML",
+      "niveau": "Intermédiaire",
+      "icône": "uml",
+      "catégorie": "Modélisation",
+      "mots_clés": ["Modeling", "Software Architecture"]
+    }
+  ],
+  
+  "langues": [
+    {
+      "langue": "Français",
+      "niveau": "Langue maternelle"
+    },
+    {
+      "langue": "Anglais",
+      "niveau": "Intermédiaire"
+    }
+  ],
+  
+  "associations": [
+    {
+      "nom": "Géomonkey",
+      "poste": "Secrétaire",
+      "description": "Géomonkey a pour objet l’organisation d’événements culturels, artisanaux et amicaux, notamment des festivals, concerts, animations culturelles, ainsi que toute activité visant à promouvoir la culture et les échanges artistiques",
+      "date": "Janvier 2026 - présent",
+      "lien": "https://geomonkey.com/",
+      "logo": "https://cdn.simpleicons.org/github/white"
+    }
+  ],
+  
+  "projets": [
+    {
+      "nom": "CV Basile MALIN",
+      "description": "Un site web statique de portfolio personnel pour présenter mes projets et compétences.",
+      "technos": ["JavaScript","HTML", "CSS"],
+      "lien": "https://bazmati.github.io/basile-malin-cv-2026/",
+      "github": "https://github.com/Bazmati",
+      "actif": false,
+      "réalisations": [
+        "Construit avec JavaScript, HTML et CSS"
+      ]
+    }
+  ],
+  
+  "centres_d_interêt": [
+    {
+      "catégorie": "Développement personnel",
+      "éléments": ["Lecture", "Formation continue", "Technologies émergentes"]
+    },
+    {
+      "catégorie": "Sports",
+      "éléments": ["Cyclisme", "Randonnée", "Natation"]
+    }
+  ],
+  
+  "réseaux_sociaux": {
+    "github": "https://github.com/Bazmati",
+    "linkedin": "",
+    "twitter": "",
+    "portfolio": "https://bazmati.github.io/basile-malin-cv-2026/"
+  }
+}

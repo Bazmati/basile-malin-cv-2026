@@ -124,7 +124,11 @@ function generateTemplate(data, primaryColor, photoUrl, outputDir) {
   const staticFiles = ['index.html', 'style.css', 'script.js'];
   
   staticFiles.forEach(file => {
-    const sourcePath = path.join(__dirname, 'basile-cv', file);
+    // Chercher d'abord dans basile-cv/, sinon à la racine
+    let sourcePath = path.join(__dirname, 'basile-cv', file);
+    if (!fs.existsSync(sourcePath)) {
+      sourcePath = path.join(__dirname, file);
+    }
     const destPath = path.join(outputDir, file);
     
     if (fs.existsSync(sourcePath)) {
