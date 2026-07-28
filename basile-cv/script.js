@@ -130,9 +130,9 @@ function renderExperiences(cv) {
     
     // Réalisations
     const realisations = exp.réalisations || exp.highlights || [];
-    if (réalisations.length > 0) {
+    if (realisations.length > 0) {
       html += '<div class="experience-details"><div class="experience-detail-title"><i class="fas fa-trophy"></i> Réalisations</div><ul class="experience-detail-list">';
-      réalisations.forEach(real => {
+      realisations.forEach(real => {
         html += '<li>' + real + '</li>';
       });
       html += '</ul></div>';
@@ -271,7 +271,7 @@ function renderProjets(cv) {
     const lien = projet.lien || projet.url || '';
     const github = projet.github || '';
     const technos = projet.technos || projet.technologies || [];
-    const réalisations = projet.réalisations || projet.highlights || [];
+    const realisations = projet.réalisations || projet.highlights || [];
     
     let html = '<div class="projet-header"><div class="projet-name">' + name + (date ? ' <span class="projet-date">(' + date + ')</span>' : '') + '</div><div class="projet-links">';
     
@@ -288,9 +288,9 @@ function renderProjets(cv) {
       html += '<p class="projet-description">' + description + '</p>';
     }
     
-    if (réalisations.length > 0) {
+    if (realisations.length > 0) {
       html += '<div class="experience-details"><div class="experience-detail-title"><i class="fas fa-star"></i> Réalisation(s)</div><ul class="experience-detail-list">';
-      réalisations.forEach(real => {
+      realisations.forEach(real => {
         html += '<li>' + real + '</li>';
       });
       html += '</ul></div>';
@@ -395,12 +395,12 @@ function renderCentresInteret(cv) {
     const div = document.createElement('div');
     div.className = 'interet-category';
     
-    const catégorie = centre.catégorie || centre.name || '';
-    const éléments = centre.éléments || centre.keywords || [];
+    const categorie = centre.catégorie || centre.name || '';
+    const elements = centre.éléments || centre.keywords || [];
     
-    let html = '<div class="interet-category-title"><i class="fas fa-tag"></i> ' + catégorie + '</div><div class="interet-elements">';
+    let html = '<div class="interet-category-title"><i class="fas fa-tag"></i> ' + categorie + '</div><div class="interet-elements">';
     
-    éléments.forEach(el => {
+    elements.forEach(el => {
       html += '<span class="interet-element">' + el + '</span>';
     });
     
