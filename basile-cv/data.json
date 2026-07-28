@@ -351,7 +351,7 @@
     {
       "nom": "Symfony",
       "niveau": "Expert",
-      "icône": "php",
+      "icône": "symfony",
       "catégorie": "Backend",
       "mots_clés": ["PHP Framework", "SSR", "Static Generation", "Backend/Frontend"]
     },
@@ -412,11 +412,32 @@
       "mots_clés": ["Web Development", "Backend", "JavaScript", "Server"]
     },
     {
+      "nom": "Php",
+      "niveau": "Intermédiaire",
+      "icône": "php",
+      "catégorie": "Backend",
+      "mots_clés": ["Web Development", "Backend", "php", "Server"]
+    },
+    {
       "nom": "JavaScript",
       "niveau": "Intermédiaire",
       "icône": "javascript",
       "catégorie": "Langages",
       "mots_clés": ["Web Development", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "nom": "Java",
+      "niveau": "Intermédiaire",
+      "icône": "java",
+      "catégorie": "Langages",
+      "mots_clés": ["Web Development", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "nom": "Kotlin",
+      "niveau": "Intermédiaire",
+      "icône": "kotlin",
+      "catégorie": "Backend",
+      "mots_clés": ["Web Development", "Backend", "Kotlin"]
     },
     {
       "nom": "HTML",
@@ -482,11 +503,11 @@
   
   "associations": [
     {
-      "nom": "Local Coding Club",
-      "poste": "Bénévole",
-      "description": "Aide à l'organisation d'ateliers de codage et mentorat des nouveaux membres.",
-      "date": "Janvier 2021 - Janvier 2022",
-      "lien": "https://codingclub.com/",
+      "nom": "Géomonkey",
+      "poste": "Secrétaire",
+      "description": "Géomonkey a pour objet l’organisation d’événements culturels, artisanaux et amicaux, notamment des festivals, concerts, animations culturelles, ainsi que toute activité visant à promouvoir la culture et les échanges artistiques",
+      "date": "Janvier 2026 - présent",
+      "lien": "https://geomonkey.com/",
       "logo": "https://cdn.simpleicons.org/github/white"
     }
   ],
@@ -495,13 +516,12 @@
     {
       "nom": "CV Basile MALIN",
       "description": "Un site web statique de portfolio personnel pour présenter mes projets et compétences.",
-      "technos": ["React", "Tailwind CSS"],
+      "technos": ["JavaScript","HTML", "CSS"],
       "lien": "https://bazmati.github.io/basile-malin-cv/",
       "github": "https://github.com/Bazmati",
       "actif": false,
       "réalisations": [
-        "Construit avec React et Tailwind CSS",
-        "Inclut un blog et un formulaire de contact"
+        "Construit avec JavaScript, HTML et CSS"
       ]
     }
   ],
