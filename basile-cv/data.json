@@ -518,10 +518,89 @@
       "description": "Un site web statique de portfolio personnel pour présenter mes projets et compétences.",
       "technos": ["JavaScript","HTML", "CSS"],
       "lien": "https://bazmati.github.io/basile-malin-cv-2026/",
-      "github": "https://github.com/Bazmati",
+      "github": "https://github.com/Bazmati/basile-malin-cv-2026",
+      "actif": true,
+      "réalisations": [
+        "Construit avec JavaScript, HTML et CSS",
+        "Hébergement GitHub Pages"
+      ]
+    },
+    {
+      "nom": "Flyers Generator",
+      "description": "Générateur de flyers personnalisables.",
+      "technos": ["JavaScript"],
+      "lien": "",
+      "github": "https://github.com/Bazmati/flyers_generator",
+      "actif": true,
+      "réalisations": [
+        "Génération dynamique de flyers"
+      ]
+    },
+    {
+      "nom": "QR Code Generator",
+      "description": "Outil de génération de codes QR personnalisés.",
+      "technos": ["HTML", "JavaScript"],
+      "lien": "",
+      "github": "https://github.com/Bazmati/qr_code_generator",
+      "actif": true,
+      "réalisations": [
+        "Création et personnalisation de codes QR"
+      ]
+    },
+    {
+      "nom": "Cheat Sheet Bazmati",
+      "description": "Collection de notes et astuces de développement.",
+      "technos": ["HTML"],
+      "lien": "",
+      "github": "https://github.com/Bazmati/cheat_sheat_bazmati",
+      "actif": true,
+      "réalisations": [
+        "Documentation technique personnelle"
+      ]
+    },
+    {
+      "nom": "Basile Malin CV (Astro)",
+      "description": "Version alternative du CV développée avec Astro.",
+      "technos": ["Astro"],
+      "lien": "",
+      "github": "https://github.com/Bazmati/basile-malin-cv",
       "actif": false,
       "réalisations": [
-        "Construit avec JavaScript, HTML et CSS"
+        "Structure moderne avec Astro"
+      ]
+    },
+    {
+      "nom": "Meteo Project",
+      "description": "Application météo développée en Python.",
+      "technos": ["Python"],
+      "lien": "",
+      "github": "https://github.com/Bazmati/meteo_project",
+      "actif": false,
+      "réalisations": [
+        "Récupération et affichage de données météorologiques"
+      ]
+    },
+    {
+      "nom": "TrajetHydiac",
+      "description": "Application de gestion des trajets pour les formateurs (Projet de stage).",
+      "technos": ["Java", "SQLite"],
+      "lien": "",
+      "github": "https://github.com/Bazmati/TrajetHydiac",
+      "actif": false,
+      "réalisations": [
+        "Enregistrement des trajets en base de données"
+      ]
+    },
+    {
+      "nom": "Dashboard AvousLeWeb",
+      "description": "Tableau de bord de gestion des KPI (Projet de stage).",
+      "technos": ["PHP", "MySQL", "Bootstrap"],
+      "lien": "",
+      "github": "https://github.com/Bazmati/dashboard",
+      "actif": false,
+      "réalisations": [
+        "Application web complète avec backend PHP",
+        "Crawler avec certificat SSL pour indexation de mots-clés"
       ]
     }
   ],
