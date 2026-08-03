@@ -92,7 +92,7 @@ python3 -m http.server 8000
 
 3. Ouvrez votre navigateur à l'adresse :
    
-   [http://localhost:8000](http://localhost:8000)
+   [https://bazmati.github.io/basile-malin-cv-2026/](https://bazmati.github.io/basile-malin-cv-2026/)
 
 ---
 
