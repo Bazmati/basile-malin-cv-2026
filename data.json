@@ -514,93 +514,61 @@
   
   "projets": [
     {
-      "nom": "CV Basile MALIN",
-      "description": "Un site web statique de portfolio personnel pour présenter mes projets et compétences.",
-      "technos": ["JavaScript","HTML", "CSS"],
+      "nom": "Admin Procedures — Procédures d'administration systèmes & réseaux",
+      "description": "Procédures d'exploitation et de dépannage d'une infrastructure virtualisée : Proxmox VE, Hyper-V, Active Directory, DNS/DHCP, avec scripts PowerShell et Bash prêts à l'emploi.",
+      "technos": ["Proxmox VE", "Hyper-V", "Active Directory", "PowerShell", "Bash", "Linux"],
+      "lien": "https://github.com/Bazmati/admin-procedures",
+      "github": "https://github.com/Bazmati/admin-procedures",
+      "actif": true,
+      "réalisations": [
+        "Procédures complètes : installation, exploitation, dépannage (symptôme → diagnostic → action)",
+        "Scripts d'administration : inventaire AD, création en masse de comptes, sauvegarde de configuration Proxmox"
+      ]
+    },
+    {
+      "nom": "GéoMonkey — Gestion d'association",
+      "description": "Site vitrine et application de gestion pour l'association GéoMonkey : rédaction d'articles, gestion des membres, espace administrateur.",
+      "technos": ["PHP", "Symfony", "MySQL", "Bootstrap"],
+      "lien": "https://geomonkey.com/",
+      "github": "https://github.com/Bazmati/geomonkey-master",
+      "actif": true,
+      "réalisations": [
+        "Site public et back-office de gestion de contenu",
+        "Conception et déploiement sur serveur personnel (Proxmox, Linux, Nginx/Apache)"
+      ]
+    },
+    {
+      "nom": "IT Support Toolbox",
+      "description": "Procédures, guides d'installation et cheat sheets pour techniciens support IT N1/N2 : Active Directory, GLPI, PowerShell, VMware.",
+      "technos": ["PowerShell", "Active Directory", "GLPI", "VMware", "Markdown"],
+      "lien": "https://github.com/Bazmati/it-support-toolbox",
+      "github": "https://github.com/Bazmati/it-support-toolbox",
+      "actif": true,
+      "réalisations": [
+        "Documentation orientée diagnostic rapide et terrain"
+      ]
+    },
+    {
+      "nom": "Dashboard KPI — AvousLeWeb (stage)",
+      "description": "Application web de suivi de KPI de sites web : agrégation d'indicateurs et récupération d'articles par mots-clés.",
+      "technos": ["PHP", "MySQL", "JavaScript", "Bootstrap"],
+      "lien": "https://github.com/Bazmati/dashboard",
+      "github": "https://github.com/Bazmati/dashboard",
+      "actif": false,
+      "réalisations": [
+        "Backend PHP + MySQL, dashboard de visualisation",
+        "Développé en autonomie lors du stage chez AvousLeWeb"
+      ]
+    },
+    {
+      "nom": "Portfolio / CV en ligne",
+      "description": "Site CV responsive généré à partir d'un fichier de données (data.json) — ce site même.",
+      "technos": ["JavaScript", "HTML", "CSS"],
       "lien": "https://bazmati.github.io/basile-malin-cv-2026/",
       "github": "https://github.com/Bazmati/basile-malin-cv-2026",
       "actif": true,
       "réalisations": [
-        "Construit avec JavaScript, HTML et CSS",
-        "Hébergement GitHub Pages"
-      ]
-    },
-    {
-      "nom": "Flyers Generator",
-      "description": "Générateur de flyers personnalisables.",
-      "technos": ["JavaScript"],
-      "lien": "",
-      "github": "https://github.com/Bazmati/flyers_generator",
-      "actif": true,
-      "réalisations": [
-        "Génération dynamique de flyers"
-      ]
-    },
-    {
-      "nom": "QR Code Generator",
-      "description": "Outil de génération de codes QR personnalisés.",
-      "technos": ["HTML", "JavaScript"],
-      "lien": "",
-      "github": "https://github.com/Bazmati/qr_code_generator",
-      "actif": true,
-      "réalisations": [
-        "Création et personnalisation de codes QR"
-      ]
-    },
-    {
-      "nom": "Cheat Sheet Bazmati",
-      "description": "Collection de notes et astuces de développement.",
-      "technos": ["HTML"],
-      "lien": "",
-      "github": "https://github.com/Bazmati/cheat_sheat_bazmati",
-      "actif": true,
-      "réalisations": [
-        "Documentation technique personnelle"
-      ]
-    },
-    {
-      "nom": "Basile Malin CV (Astro)",
-      "description": "Version alternative du CV développée avec Astro.",
-      "technos": ["Astro"],
-      "lien": "",
-      "github": "https://github.com/Bazmati/basile-malin-cv",
-      "actif": false,
-      "réalisations": [
-        "Structure moderne avec Astro"
-      ]
-    },
-    {
-      "nom": "Meteo Project",
-      "description": "Application météo développée en Python.",
-      "technos": ["Python"],
-      "lien": "",
-      "github": "https://github.com/Bazmati/meteo_project",
-      "actif": false,
-      "réalisations": [
-        "Récupération et affichage de données météorologiques"
-      ]
-    },
-    {
-      "nom": "TrajetHydiac",
-      "description": "Application de gestion des trajets pour les formateurs (Projet de stage).",
-      "technos": ["Java", "SQLite"],
-      "lien": "",
-      "github": "https://github.com/Bazmati/TrajetHydiac",
-      "actif": false,
-      "réalisations": [
-        "Enregistrement des trajets en base de données"
-      ]
-    },
-    {
-      "nom": "Dashboard AvousLeWeb",
-      "description": "Tableau de bord de gestion des KPI (Projet de stage).",
-      "technos": ["PHP", "MySQL", "Bootstrap"],
-      "lien": "",
-      "github": "https://github.com/Bazmati/dashboard",
-      "actif": false,
-      "réalisations": [
-        "Application web complète avec backend PHP",
-        "Crawler avec certificat SSL pour indexation de mots-clés"
+        "Contenu piloté par un JSON, générable et maintenable facilement"
       ]
     }
   ],
