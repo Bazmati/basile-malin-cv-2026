@@ -506,7 +506,7 @@
       "poste": "Secrétaire",
       "description": "Géomonkey a pour objet l’organisation d’événements culturels, artisanaux et amicaux, notamment des festivals, concerts, animations culturelles, ainsi que toute activité visant à promouvoir la culture et les échanges artistiques",
       "date": "Janvier 2026 - présent",
-      "lien": "https://geomonkey.com/",
+      "lien": "https://www.geomonkey.fr/",
       "logo": "https://cdn.simpleicons.org/github/white"
     }
   ],
@@ -525,15 +525,15 @@
       ]
     },
     {
-      "nom": "GéoMonkey — Gestion d'association",
-      "description": "Site vitrine et application de gestion pour l'association GéoMonkey : rédaction d'articles, gestion des membres, espace administrateur.",
-      "technos": ["PHP", "Symfony", "MySQL", "Bootstrap"],
-      "lien": "https://geomonkey.com/",
+      "nom": "Géomonkey — Plateforme web pour associations",
+      "description": "Application complète pour associations, développée pour l'association Géomonkey : adhérents, adhésions en ligne (Stripe + webhook), événements et participants, galerie photos (imports WebP en 3 tailles), rôles et permissions, conformité RGPD. En production sur mon serveur.",
+      "technos": ["Symfony 8", "PHP 8.4", "PostgreSQL", "Bootstrap", "Stripe", "Docker"],
+      "lien": "https://www.geomonkey.fr/",
       "github": "https://github.com/Bazmati/geomonkey-master",
       "actif": true,
       "réalisations": [
-        "Site public et back-office de gestion de contenu",
-        "Conception et déploiement sur serveur personnel (Proxmox, Linux, Nginx/Apache)"
+        "Site public et back-office complet, open source (MIT)",
+        "Auto-hébergé : Proxmox VE, VM Ubuntu, Nginx, HTTPS"
       ]
     },
     {
